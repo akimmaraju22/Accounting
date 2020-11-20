@@ -1,0 +1,44 @@
+#main-doc {
+	height:100%;
+	width:100%;
+}
+
+#navbar {
+	position:fixed;
+	width:300px;
+	height:100%;
+}
+
+.nav-links {
+	padding-top:10px;
+	text-align:justify;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+#technical-doc-writing {
+	width:75%;
+	margin-left:320px;
+}
+
+header {
+	font-weight:bold;
+	font-size:20px;
+	text-align:left;
+}
+
+p {
+	font-size:20px;
+}
+
+@media (max-width:600px) {
+	#navbar {
+		width:100%;
+	}
+
+	#technical-doc-writing {
+		width:100%;	
+	}
+}
+
+
