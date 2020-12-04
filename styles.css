@@ -25,6 +25,7 @@
 	text-align:justify;
 	margin-top:10px;
 	margin-bottom:10px;
+	font-family: 'Courier New', Courier, monospace;
 }
 
 #technical-doc-writing {
@@ -36,28 +37,36 @@ h1 {
 	font-weight:bold;
 	font-size:20px;
 	text-align:left;
-	color: white;
+	color:limegreen;
+	font-family:'Courier New', Courier, monospace;
 }
 
 p {
-	font-size:16px;
+	font-size:18px;
 	color: white;
-
+	font-family: 'Courier New', Courier, monospace;
 }
 
 h3 {
 	font-size:18px;
-	color: white;
+	color: gold;
+	font-family: 'Courier New', Courier, monospace;
 }
 
 li {
 	color: white;
+	font-family: 'Courier New', Courier, monospace;
+	font-size:20px;
 }
 
-
+b {
+	font-family: 'Courier New', Courier, monospace;
+	color:white;
+}
 
 i {
 	color: white;
+	font-family: 'Courier New', Courier, monospace;
 }
 
 .subsections {
