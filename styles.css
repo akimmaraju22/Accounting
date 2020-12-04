@@ -1,3 +1,13 @@
+* {
+	background-color: indigo;
+}
+
+#logo {
+	font-size: 28px;
+	font-family: 'Courier New', Courier, monospace;
+	color:gold;
+}
+
 #main-doc {
 	height:100%;
 	width:100%;
@@ -9,8 +19,9 @@
 	height:100%;
 }
 
+
 .nav-links {
-	padding-top:10px;
+	padding-top:20px;
 	text-align:justify;
 	margin-top:10px;
 	margin-bottom:10px;
@@ -21,14 +32,49 @@
 	margin-left:320px;
 }
 
-header {
+h1 {
 	font-weight:bold;
 	font-size:20px;
 	text-align:left;
+	color: white;
 }
 
 p {
-	font-size:20px;
+	font-size:16px;
+	color: white;
+
+}
+
+h3 {
+	font-size:18px;
+	color: white;
+}
+
+li {
+	color: white;
+}
+
+
+
+i {
+	color: white;
+}
+
+.subsections {
+	color: lime;
+}
+
+.nav-link {
+	color: lime;
+	padding-bottom: 10px;
+}
+
+.subsections:hover {
+	color:gold;
+}
+
+.nav-link:hover {
+	color:gold;
 }
 
 @media (max-width:600px) {
