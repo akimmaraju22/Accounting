@@ -8,6 +8,13 @@
 	color:gold;
 }
 
+.logo-image {
+	width:200px;
+	height:200px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
 #main-doc {
 	height:100%;
 	width:100%;
