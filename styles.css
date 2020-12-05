@@ -19,9 +19,14 @@
 	height:100%;
 }
 
+.intro-section {
+	text-align: justify;
+	text-align-last: center;
+}
+
 
 .nav-links {
-	padding-top:20px;
+	/*padding-top:20px;*/
 	text-align:justify;
 	margin-top:10px;
 	margin-bottom:10px;
@@ -53,6 +58,12 @@ h3 {
 	font-family: 'Courier New', Courier, monospace;
 }
 
+h4 {
+	font-size: 34px;
+	color:gold;
+	font-family: 'Courier New', Courier, monospace;
+}
+
 li {
 	color: white;
 	font-family: 'Courier New', Courier, monospace;
@@ -69,13 +80,17 @@ i {
 	font-family: 'Courier New', Courier, monospace;
 }
 
+.nav-select {
+
+}
+
 .subsections {
 	color: lime;
 }
 
 .nav-link {
 	color: lime;
-	padding-bottom: 10px;
+	
 }
 
 .subsections:hover {
