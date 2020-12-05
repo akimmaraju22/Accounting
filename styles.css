@@ -13,6 +13,9 @@
 	height:200px;
 	padding-top: 10px;
 	padding-bottom: 10px;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
 }
 
 #main-doc {
@@ -29,15 +32,6 @@
 .intro-section {
 	text-align: justify;
 	text-align-last: center;
-}
-
-
-.nav-links {
-	/*padding-top:20px;*/
-	text-align:justify;
-	margin-top:10px;
-	margin-bottom:10px;
-	font-family: 'Courier New', Courier, monospace;
 }
 
 #technical-doc-writing {
@@ -88,7 +82,15 @@ i {
 }
 
 .nav-select {
+	padding-top: 40px;
+}
 
+.nav-links {
+	/*padding-top:20px;*/
+	text-align:justify;
+	margin-top:10px;
+	margin-bottom:10px;
+	font-family: 'Courier New', Courier, monospace;
 }
 
 .subsections {
@@ -97,7 +99,6 @@ i {
 
 .nav-link {
 	color: lime;
-	
 }
 
 .subsections:hover {
