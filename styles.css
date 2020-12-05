@@ -2,10 +2,23 @@
 	background-color: indigo;
 }
 
+@font-face {
+	font-family: Alericgg;
+	src: url(txt/Alaric/AlaricSSK/AlaricSSK.ttf)
+	
+}
+
+@font-face {
+	font-family: myCursive;
+	src: url(txt/myCursive/MyCursive/314-CAI978/314-CAI978.ttf)
+
+}
 #logo {
-	font-size: 28px;
-	font-family: 'Courier New', Courier, monospace;
-	color:gold;
+	font-size: 34px;
+	font-family: 'myCursive';
+	color:lime;
+	letter-spacing: 5px;
+	word-wrap: normal;
 }
 
 .logo-image {
@@ -60,15 +73,16 @@ h3 {
 }
 
 h4 {
-	font-size: 34px;
+	font-size: 70px;
 	color:gold;
-	font-family: 'Courier New', Courier, monospace;
+	font-family: 'myCursive';
+	letter-spacing: 7px;
 }
 
 li {
 	color: white;
 	font-family: 'Courier New', Courier, monospace;
-	font-size:20px;
+	font-size:16px;
 }
 
 b {
