@@ -61,13 +61,20 @@ h1 {
 }
 
 p {
-	font-size:18px;
+	font-size:16px;
 	color: white;
 	font-family: 'Courier New', Courier, monospace;
 }
 
+h2 {
+	font-size: 18px;
+	color:white;
+	font-family: 'Courier New', Courier, monospace;
+	text-decoration: wavy;
+}
+
 h3 {
-	font-size:18px;
+	font-size:20px;
 	color: gold;
 	font-family: 'Courier New', Courier, monospace;
 }
@@ -82,12 +89,13 @@ h4 {
 li {
 	color: white;
 	font-family: 'Courier New', Courier, monospace;
-	font-size:20px;
+	font-size:18px;
 }
 
 b {
 	font-family: 'Courier New', Courier, monospace;
 	color:white;
+	font-size:16px;
 }
 
 i {
